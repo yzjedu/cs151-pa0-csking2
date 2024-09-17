@@ -12,9 +12,9 @@ Cost_of_Investment_int = int(Cost_of_Investment_str)
 
 #Divide the Net Income by the Cost of Investment then multiply the result by 100 to find the ROI
 
-ROI = (Net_Income_int / Cost_of_Investment_str) * 100
+ROI = (Net_Income_int / Cost_of_Investment_int) * 100
 
 #Display the ROI
 
-print('You're ROI is:", ROI)
+print('You\'re ROI is:', ROI)
 
